@@ -172,10 +172,10 @@ Intelligent-Data-Reliability-Platform/
 
 The following files are generated automatically while the system is running:
 
-live_pipeline_logs.csv
-live_predictions.csv
-live_alerts.csv
-predicted_pipeline_failures.csv
+live_pipeline_logs.csv,
+live_predictions.csv,
+live_alerts.csv,
+predicted_pipeline_failures.csv,
 failure_alerts.csv
 
 These files are excluded from version control to keep the repository clean and focused on source code, training data, and project artifacts.
