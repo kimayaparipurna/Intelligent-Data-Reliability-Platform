@@ -2,5 +2,6 @@ venv/
 __pycache__/
 .env
 *.pyc
-data/*.csv
-models/*.pkl
+data/*
+!data/pipeline_logs.csv
+!data/labeled_pipeline_logs.csv
