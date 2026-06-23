@@ -131,13 +131,9 @@ Intelligent-Data-Reliability-Platform/
 │   └── app.py
 │
 ├── data/
-│   ├── failure_alerts.csv
 │   ├── labeled_pipeline_logs.csv
-│   ├── live_alerts.csv
-│   ├── live_pipeline_logs.csv
-│   ├── live_predictions.csv
-│   ├── pipeline_logs.csv
-│   └── predicted_pipeline_failures.csv
+│   └── pipeline_logs.csv
+│   
 │
 ├── models/
 │   └── failure_prediction_model.pkl
@@ -172,7 +168,17 @@ Intelligent-Data-Reliability-Platform/
 ├── requirements.txt
 └── README.md
 ```
+📁 Generated Outputs
 
+The following files are generated automatically while the system is running:
+
+live_pipeline_logs.csv
+live_predictions.csv
+live_alerts.csv
+predicted_pipeline_failures.csv
+failure_alerts.csv
+
+These files are excluded from version control to keep the repository clean and focused on source code, training data, and project artifacts.
 ---
 
 # 📈 Model Performance
